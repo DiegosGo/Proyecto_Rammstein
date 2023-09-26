@@ -56,7 +56,7 @@ header a{
 
 /* ------------------- MAIN ------------------- */
 .portada{
-    background-image: url(/img/Portada_index.png);
+    background-image: url(img/Portada_index.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -71,7 +71,7 @@ header a{
     margin: auto;
 }
 .portada2{
-    background-image: url(/img/ULTIMOS\ ALBUMES_text.png);
+    background-image: url(img/ULTIMOS\ ALBUMES_text.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
@@ -86,7 +86,7 @@ header a{
 }
 
 .portada3{
-    background-image: url(/img/CONTACTO_text.png);
+    background-image: url(img/CONTACTO_text.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
@@ -100,7 +100,7 @@ header a{
     margin: 2rem auto;
 }
 .portada4{
-    background-image: url(/img/INTEGRANTES_text.png);
+    background-image: url(img/INTEGRANTES_text.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
