@@ -1,0 +1,498 @@
+
+:root {
+    --color_1: #ffffff;
+    --color_2: #E77B06;
+    --color_background: #0F0F0F;
+    --color_background2:#000000;
+  }
+
+body {
+    background: #000;
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Barlow', sans-serif; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+a{
+    text-decoration: none;
+}
+
+/* ------------------- NAVEGADOR ------------------- */   
+header{
+    background: var(--color_background);
+    display: flex;
+    padding:0 40px 0 40px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+header nav {
+    display: flex;
+    gap: 30px;
+    width: 340px;
+}
+
+nav a{
+    color: var(--color_1);
+    height: 74px;
+    display: flex;
+    align-items:center;
+}
+
+
+header a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+}
+
+
+.color_2{
+    color: var(--color_2);
+}
+
+/* ------------------- MAIN ------------------- */
+.portada{
+    background-image: url(/img/Portada_index.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--color_background2);
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    width: 1200px;
+    padding: 12rem 0 12rem 0;
+    margin: auto;
+}
+.portada2{
+    background-image: url(/img/ULTIMOS\ ALBUMES_text.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: var(--color_background2);
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    width: 1200px;
+    padding: 2rem 0 2rem 0;
+    margin: 2rem auto;
+}
+
+.portada3{
+    background-image: url(/img/CONTACTO_text.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: var(--color_background2);
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    width: 1200px;
+    padding: 2rem 0 2rem 0;
+    margin: 2rem auto;
+}
+.portada4{
+    background-image: url(/img/INTEGRANTES_text.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--color_background2);
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    width: 1200px;
+    padding: 4rem 0 14rem 0;
+    margin: auto;
+}
+
+.titulo_portada{
+    background-color: var(--color_2);
+    color: var(--color_1);
+    text-align: left;
+    margin: 4px;
+    padding: 10px 120px;
+    overflow: visible;
+    width: max-content;
+   
+}
+
+
+.portada img{
+    width: 600px;
+}
+
+.cuadro_blanco{
+    background-color: var(--color_1);
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 0 8px 8px;
+    
+}
+.cuadro_texto1 {
+    background-color: var(--color_background2);
+    color: var(--color_1);
+    text-align: left;
+    margin: 4px;
+    padding: 10px;
+    overflow: visible;
+    width: max-content;
+    
+}
+.cuadro_texto2 {
+    background-color: var(--color_2);
+    color: var(--color_1);
+    text-align: left;
+    margin: 4px;
+    padding: 10px;
+    overflow: visible;
+    width: max-content;
+}
+
+.cuadro_texto3 {
+    background-color: var(--color_1);
+    color: var(--color_background2);
+    text-align: left;
+    margin: 4px;
+    padding: 10px;
+    overflow: visible;
+    width: max-content;
+}
+.cuadro_texto4 {
+    color: var(--color_2);
+    text-align: left;
+    margin: 4px;
+    padding: 10px;
+    overflow: visible;
+    width: max-content;
+}
+
+/* ------------------- CONTACTOS ------------------- */
+.mapa_form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    object-fit: contain;
+    color: var(--color_1);
+    margin-top: 0%;
+    
+}
+.mapa_form div{
+    display: inline-flex;
+    width: 40%; 
+    object-fit: contain;
+    flex-direction: column;
+
+}
+
+
+.cuadros_contacto{
+    display: flex;
+    flex-direction: row;
+    color: var(--color_1);
+    justify-content: center;
+    margin: 5rem 0 ;
+}
+
+.cuadros_contacto div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+   
+}
+
+.cuadros_contacto p{
+    width:auto;
+    margin: 0%;
+}
+
+.formulario_contacto{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario_contacto {
+    display: flex;
+    flex-direction: column;
+    color: var(--color_1);
+}
+
+.formulario_contacto button{
+    background-color: var(--color_2);
+    color: var(--color_1);
+    height: 35px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+/* ------------------- INTEGRANTES ------------------- */
+
+.integrantes_column{
+    background-color: var(--color_1);
+    display: flex;
+}
+.integrantes_column div{
+    width: 50%;
+}
+
+.integrantes_column img{
+    width: 100%;
+}
+
+.integrantes_column p, h2, h4{
+    color: var(--color_background2);
+    padding-left: 2rem;
+    width: 80%;
+    margin-bottom: 0%;
+}
+
+.integrantes_column h4{
+    color: var(--color_2);
+    margin: 0%;
+}
+/* ------------------- DIVISOR ------------------- */
+.divisor{
+    background-color: var(--color_background);
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0 40px 0;
+}
+
+.divisor div{
+    display: flex;
+    align-items: center;
+}
+
+p{
+    color: var(--color_1);
+    font-family:'Barlow', sans-serif;
+    width: 400PX;
+    height: auto;
+}
+
+/* ------------------- LISTADO EVENTOS ------------------- */
+.listado_compra{
+    padding: 50px 0 50px 0;
+}
+.selector_comprar{
+    display: flex ;
+    flex-direction: row;
+    height: 108px;
+    width: 80%;
+    border-bottom: 1px solid var(--color_1);
+    align-items: center;
+    justify-content: space-between;
+    margin: auto   ;
+}
+.selector_comprar div{
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    color: var(--color_2);
+    background-color: var(--color_background2);
+    border: 2px solid var(--color_2);
+    padding: 12px;
+    width: 200px;
+    border-radius: 4px;
+    text-align:center;
+}
+/* ------------------- ALBUMES ------------------- */
+.Albumes_col{
+    background-color: var(--color_1);
+    display: grid;
+    grid-template-columns: 100px 300px 300px 300px 100px;
+    grid-template-rows: 500px 500px;
+    grid-template-areas: "lateral album1 album2 album3 lateral2"
+                         "lateral album4 album5 album6 lateral2";
+    justify-items: center;
+    align-items: center;
+    list-style: none;
+    padding: 0%;
+    gap: 10px;
+    justify-content: space-between
+}    
+
+.Albumes_col  .lateral1,.lateral2 {
+    width: 100px;
+}
+.Albumes_col .port_album{
+    inline-size: 100%;
+}
+
+.album1{ grid-area: album1;}
+.album2{ grid-area: album2;;}
+.album3{ grid-area: album3;}
+.album4{ grid-area: album4;}
+.album5{ grid-area: album5;}
+.album6{ grid-area: album6;}
+.lateral{
+    grid-area: lateral;
+    grid-column: 1/1;
+    width: 100px;}
+.lateral2{
+    grid-area: lateral2;
+    grid-column: 5/5;
+    width: 100px;}
+
+.titulo_album{
+    background-color: var(--color_background2);
+    color: var(--color_1);
+    text-align: center;
+
+}
+main section a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* ------------------- DIVISOR MAIN FOOTER ------------------- */
+
+.raim_divisor{
+    background-image: url(img/raim_blanco.svg);
+    height: 20px;
+    background-size: contain;
+    margin-top: 3rem;
+}
+
+
+
+
+/* -------------------  FOOTER ------------------- */
+
+footer{
+    color: var(--color_1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0 0 0;
+
+}
+
+footer h4 {
+    font-family: 'Barlow', sans-serif;
+}
+
+footer a{
+    font-size: 1rem;
+    color: var(--color_1);
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+}
+.newsletter button{
+    background-color: var(--color_2);
+    color: var(--color_1);
+    height: 35px;
+    border-radius: 4px;
+}
+input{
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding-left: 4px;
+}
+
+.redes{
+    background-color: var(--color_background);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 40px;
+    margin-top: 40px;
+}
+
+.redes ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style:none;
+}
+
+.redes a{
+    background-color: var(--color_1);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.ContenedorPrincipal {
+    width: 100%;            /* Con estas 2 lineas definimos de ancho hasta donde */
+    max-width: 2196px;      /* se va a mostar contenido */
+    gap: 30px;              /* Distancia entre elementos en general */
+    margin: 30px auto;      /* Centra de manera horizontal los elementos en general */
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* Una linea chica para el Aside + Publicidad y buen espacio para el main */
+    grid-template-rows: 1fr 2fr 2fr 1fr 0.5fr; /* Header fino, Main grande, articulos, footer */
+    grid-template-areas:"navegador navegador"
+    "aside main"
+    "publicidad main"
+    "articulo articulo"
+    "pie pie";
+}
+
+.navegador{
+    position: relative;
+    grid-area: navegador;
+    display: grid;
+}
+.main{
+    background-color: aqua;
+    position: relative;
+    grid-area: main;
+    display: grid;
+}
+.pie{
+    background-color: red;
+    position: relative;
+    grid-area: pie;
+    display: grid;
+}
+.aside{
+    background-color: blue;
+    position: relative;
+    grid-area: aside;
+    display: grid;
+}
+.publicidad{
+    background-color: yellow;
+    position: relative;
+    grid-area: publicidad;
+    display: grid;
+}
+.articulo{
+    background-color: pink;
+    position: relative;
+    grid-area: articulo;
+    display: grid;
+}
+    
